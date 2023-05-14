@@ -1,0 +1,6 @@
+@media only screen and (max-width:600px){
+    .order-box{
+        width: 22.4rem !important;
+        margin-left: -2.7rem;
+    }
+}

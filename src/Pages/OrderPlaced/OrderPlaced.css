@@ -1,0 +1,25 @@
+th, td{
+    border: 1px solid grey;
+    padding: 10px 10px;
+}
+
+table{
+    border: 1px solid grey;
+
+}
+
+@media only screen and (max-width:600px){
+    .order-placed-middle h1{
+        font-size: 24px;
+        width: max-content;
+    }
+
+    .order-placed-middle  {
+        width: 20rem !important;
+    }
+
+    .order-placed-middle table {
+        width: 20rem;
+        font-size: 12px;
+    }
+}

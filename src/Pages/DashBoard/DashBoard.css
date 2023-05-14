@@ -1,0 +1,23 @@
+.book-box-container{
+    width: 65%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center ;
+    gap: 1rem;
+}
+
+.dashboard-pagination{
+    width: 65%;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.dashboard-footer{
+    position:fixed;
+    bottom:0;
+}

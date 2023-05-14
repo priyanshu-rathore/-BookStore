@@ -1,0 +1,17 @@
+.book-top{
+    display: flex;
+    align-items: center;
+    width: 65%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.book-top-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-top-left p{
+    display: inline;
+}

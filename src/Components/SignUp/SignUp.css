@@ -1,0 +1,52 @@
+.sign-up-main{
+    height: 50vh;
+    width: 23vw;
+    background-color: #fff;
+    border-radius: 7px;
+    box-shadow: 0px 5px 15px #00000029;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.sign-up-login{
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #878787;
+    text-transform: uppercase;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.sign-up-sign-up{
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #0A0102;
+    text-transform: uppercase;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: -1px;
+}
+
+.sign-up-sign-up div{
+    background: #A03037 0% 0% no-repeat padding-box;
+    height: 5px;
+    width: 30px;
+    border-radius: 7px;
+    position: relative;
+    top: -.7rem;
+}
+
+@media only screen and (max-width:600px) {
+    
+
+    .sign-up-main{
+        width: 100%;
+        padding: 1rem;
+    }
+}
